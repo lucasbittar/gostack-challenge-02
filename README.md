@@ -8,7 +8,7 @@
 
 ### Challenge
 
-Create the first step for an app for a fake logistics company called FastFeet with the following goals:
+Create the first step for fake logistics company app called FastFeet with the following goals:
 
 - User authentication using JWT
 - Create a single user with admin capabilities to add/edit recipients
@@ -21,7 +21,7 @@ yarn install && yarn dev
 Once yarn is running, all of the requests should point to: http://localhost:33333/.
 
 ### Description ###
-First step for the development of an app for a fake logistics company called FastFeet.
+First step for the development of a fake logistics company app called FastFeet.
 
 Tools and technologies used on this project:
 
