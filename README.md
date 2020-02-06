@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Fastfeet" title="Fastfeet" src=".github/logo.png" width="300px" />
+  <img alt="Fastfeet" title="Fastfeet" src="https://github.com/Rocketseat/bootcamp-gostack-desafio-02/raw/master/.github/logo.png" width="300px" />
 </h1>
 
 <h3 align="center">
@@ -36,13 +36,13 @@ Tools and technologies used on this project:
 #### Sessions ####
 | Method | Path | Params | Body | Description |
 | ------ | ------ | ------ | ------ | ------ |
-| POST | /sessions | - | { email: 'user@email.com', password: 'mypassword' } | Create a session token |
+| POST | /sessions | - | { email: String, password: String } | Create a session token |
 
 #### Users ####
 | Method | Path | Params | Body | Description |
 | ------ | ------ | ------ | ------ | ------ |
-| POST | /users | - | { name: 'Your Name', email: 'user@email.com', password: 'mypassword' } | Create a user |
-| PUT | /users/:id | id | { name: 'Your Name', email: 'user@email.com', password: 'mypassword' } | Edit a user |
+| POST | /users | - | { name: String, email: String, password: String } | Create a user |
+| PUT | /users/:id | id | { name: String, email: String, password: String } | Edit a user |
 
 #### Recipients ####
 | Method | Path | Params | Body | Description |
@@ -52,14 +52,14 @@ Tools and technologies used on this project:
 | PUT | /recipients/:id | id | [recipient_object] | Edit recipient |
 
 ```json
-  {
-    "name": STRING,
-    "address": STRING,
-    "number": NUMBER,
-    "address_2": STRING,
-    "city": STRING,
-    "state": STRING,
-    "zip_code": STRING
+  recipient_object = {
+    "name": String,
+    "address": String,
+    "number": Number,
+    "address_2": String,
+    "city": String,
+    "state": String,
+    "zip_code": String
   }
 ```
 
